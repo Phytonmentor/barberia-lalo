@@ -1,0 +1,95 @@
+.seccion{
+    background-color: #333;
+    padding: 15px;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+nav a:hover{
+    background-color: gold;
+    color: #333;
+}
+title{
+    font-family: 'Oswald', Courier, monospace;
+    color: #a56f6f;
+    text-align: center;
+    margin-top: 20px;
+}
+main{
+    background: #333;
+    color: #a56f6f;
+    margin: 0;
+
+}
+img{
+    width: 100%;
+    height: auto;
+     list-style-type: disc;
+}
+footer{
+    background-color: #333;
+    color: #a56f6f;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+.galeria{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.galeria img{
+    width: 250px;
+    height: auto;
+}
+.galeria img:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+img{
+    margin: 13px;
+    border-radius: 13px;
+}
+.hero{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h1{
+    font-size: 70px;
+    margin: 0;
+    letter-spacing: 5px;
+}
+
+.hero p{
+    font-size: 20px;
+}

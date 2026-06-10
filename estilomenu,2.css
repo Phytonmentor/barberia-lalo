@@ -1,0 +1,38 @@
+.hero{
+    background-color: #333;
+    color: #a56f6f;
+    text-align: center;
+    padding: 80px 20px;
+}
+.hero h1{
+    font-size: 70px;
+    margin: 0;
+    letter-spacing: 5px;
+}
+.hero p{
+    font-size: 20px;
+}
+.informacion{
+    background-color: #333;
+    color: #a56f6f;
+    text-align: center;
+    padding: 50px 20px;
+}
+.informacion h2{
+    font-size: 40px;
+    margin: 0;
+    letter-spacing: 5px;
+}
+.informacion p{
+    font-size: 20px;
+}
+.galeria{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.galeria img{
+    width: 250px;
+    height: auto;
+}
